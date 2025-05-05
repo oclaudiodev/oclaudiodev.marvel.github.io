@@ -1,0 +1,82 @@
+.linha1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.emd{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.min{
+    margin-left: 29px;
+}
+
+.imagembola{
+    margin-left: 29px;
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.elementos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1{
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.text{
+    padding: 10px;
+    font-size: 60px;
+    text-align: justify right;
+}
+
+.cartão{
+    background-color: #abc3c3;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 30px 80px 0px 80px;
+    text-align: center;
+    margin:20px;
+    
+
+}
+
+.groun{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: linear-gradient(rgb(217, 217, 247),#050505);
+}
+
+.cartão:hover img{
+    scale: 1.6 ;
+    transition: 0.4s;
+}
+
+.cartão p {
+    color: #abc3c3;
+}
+
+.cartão:hover p{
+    transition: 0.4s;
+    color: #000000;
+}
+
+.cartão:hover{
+    scale:1.1 ;
+    transition: 1s;
+}
